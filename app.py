@@ -41,6 +41,6 @@ if st.button("spam detection"):
     bow_data=bag_of_word.transform([processed_message]).toarray()
     prediction=model.predict(bow_data) 
     if prediction == 1: 
-        st.warning("warning spam message")
+        st.warning("Warning spam message")
     else: 
-        st.success("message is not spam")
+        st.success("Message is not spam")
