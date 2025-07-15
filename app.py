@@ -5,6 +5,7 @@ import numpy as np
 import pickle 
 import nltk
 import re
+nltk.download('wordnet') 
 nltk.download("stopwords")
 from nltk.stem import WordNetLemmatizer
 from nltk.corpus import stopwords
